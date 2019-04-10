@@ -16,6 +16,8 @@ I'm a Junior majoring in Computer Science at the [University of Wisconsin - Madi
 I build responsive apps with scalability and usability in mind.
 In my free time I delve in personal projects to challenge myself, gain experience, and learn new skills in the process.
 
+My passion lies in Front End Development and Back End Development. I'm also a sucker for good design.
+
 </div>
 
 <div class="me" markdown="1">

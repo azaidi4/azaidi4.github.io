@@ -4,9 +4,7 @@ title: "Home"
 class: home
 ---
 
-<div class="typewriter">
-  <h1>Hi, I'm Ahmad Zaidi</h1>
-</div>
+# Hi, I'm Ahmad Zaidi
 
 <div class="columns" markdown="1">
 
@@ -29,7 +27,7 @@ My passion lies in Front End Development and Back End Development. I'm also a su
 
 </div>
 
-## Featured Projects
+## <i class="fas fa-star"></i> Featured Projects
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}

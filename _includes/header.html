@@ -4,7 +4,7 @@
     <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
 
     <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}class="active"{% endif %}>Projects</a>
-    <!-- <a href="{{ '/resume/' | relative_url }}">Résumé</a> -->
+    <a href="{{ '/resume/' | relative_url }}" {% if current[1] == 'resume' %}class="active"{% endif %}>Résumé</a>
     <span class="external">
       <a href="https://github.com/azaidi4"><i class="fab fa-github"></i> GitHub</a>
     </span>

@@ -15,7 +15,7 @@ $spacing-unit:     32px;
 $content-width:    800px;
 
 $text-color:        #333;
-$background-color:  #fff;
+$background-color:  rgb(236, 236, 236);
 $brand-color:       #0070c0;
 $link-color:        #3477ad;
 $header-background: #ececec;
@@ -44,6 +44,5 @@ $on-laptop:        800px;
   "footer",
   "headings",
   "home",
-  "projects",
-  "syntax-highlighting"
+  "projects"
 ;

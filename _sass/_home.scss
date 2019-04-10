@@ -86,7 +86,7 @@
 
       border-radius: 3px;
       padding: 16px;
-      border: 1px solid #ddd;
+      border: 1px solid #D0D0D0;
 
       transition: box-shadow 0.2s ease;
 
@@ -116,7 +116,7 @@
         width: 100%;
         height: 0;
         padding-top: 60%;
-        border: 1px solid #f1f1f1;
+        border: 1px solid #E2E2E2;
         background-size: cover;
         background-position: top left;
         transition: background 1.5s;
@@ -134,72 +134,6 @@
           white-space: nowrap;
         }
       }
-    }
-  }
-
-  .featured-publications {
-    font-size: 0.95em;
-    margin-bottom: 1.5em;
-
-    .publication {
-      margin-bottom: 0.7em;
-      display: block;
-      color: $text-color;
-
-      &:hover {
-        text-decoration: none;
-      }
-
-      .fa-trophy {
-        color: #ffc000;
-      }
-
-      .fa-award {
-        color: firebrick;
-      }
-
-      .authors {
-        font-weight: 300;
-      }
-    }
-  }
-
-  .news-travel {
-    display: flex;
-    flex-direction: row;
-
-    font-size: 0.9em;
-
-    & > div {
-      flex-grow: 1;
-      flex-basis: 0;
-    }
-  }
-
-  .news {
-    ul {
-      list-style: none;
-      margin-left: 0;
-
-      li {
-        margin-bottom: 1em;
-      }
-
-      time {
-        display: block;
-        color: $grey-color;
-        font-size: 0.8em;
-      }
-    }
-  }
-
-  .travel {
-    padding-left: $spacing-unit;
-
-    .date {
-      white-space: nowrap;
-      color: $grey-color;
-      padding-right: 1em;
     }
   }
 
@@ -239,15 +173,6 @@
           float: left;
           margin-right: 18px;
         }
-      }
-    }
-
-    .news-travel {
-      margin-top: $spacing-unit;
-      flex-direction: column;
-
-      .travel {
-        padding-left: 0;
       }
     }
   }

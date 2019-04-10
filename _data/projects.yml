@@ -1,0 +1,55 @@
+- title: Madison Bus Tracker
+  image: madisonbustracker.png
+  code: https://github.com/azaidi4/madisonBusTracker/commits/master
+  description: "**Currently** developing a program using GTFS-realtime datafeed to track the current location of incoming buses of Madison Metro Transit"
+
+- title: UW Rate 'Em
+  code: https://github.com/azaidi4/UWRateEm
+  demo: https://appetize.io/app/y3vw7yf8dn49r58ct93xdc0wnc?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
+  image: uwrateem.png
+  description: "UW Rate 'em! is a **React Native** application that allows users to rate courses at the University of Wisconsin-Madison"
+  highlight: 1
+
+- title: Yelp Camp
+  image: yelpcamp.jpg
+  code: https://github.com/azaidi4/YelpCamp
+  demo: https://pure-depths-27370.herokuapp.com/campgrounds
+  description: "YelpCamp is a **full-stack** Yelp clone, but for campsites! Built using NodeJS, ExpressJS, and MongoDB"
+  highlight: 2
+
+- title: Brutal Weather
+  image: brutalweather.png
+  code: https://github.com/azaidi4/BrutalWeather
+  description: "Brutal Weather is an Android application that displays a funny quote based on the weather. Too hot? Brutal Weather will tell you it's time to start strippng!"
+
+- title: Restful Blog
+  image: restfulblog.png
+  code: https://github.com/azaidi4/BrutalWeather
+  demo: https://azaidi-restfulblog.herokuapp.com/blogs
+  description: "Restful Blog is my attempt at making a blog site using the REST protocol. It even supports HTML styling for additional customizability"
+
+- title: Groceristar
+  image: groceristar.png
+  code: https://github.com/GroceriStar
+  demo: http://groceristar.herokuapp.com/
+  description: "**Contributor** to Groceristar. An Open-Source project aimed at helping individuals improving their shopping experience"
+  highlight: 4
+
+- title: Football-Tweet Analyzer
+  image: footballanalyzer.png
+  code: https://github.com/azaidi4/football-tweet-analyzer
+  paper: https://github.com/azaidi4/football-tweet-analyzer/raw/master/532-Final%20Project.pdf
+  description: "Created a tweet analyzer that can identify whether a tweet is related to the National Football League or the English Premier League using random forest classifier 🎄🌳"
+
+- title: Patatap Clone
+  image: patatap.jpg
+  code: https://github.com/azaidi4/PatatapProject
+  demo: https://azaidi4.github.io/PatatapProject/
+  description: "Patatap Project is a clone of the popular portable animation sound kit Patatap by Jono Brandel."
+
+- title: Assistant for Fortnite
+  image: assistfortnite.jpg
+  code: https://github.com/KarinaNi/AssistFortnite
+  demo: https://snack.expo.io/@azaidi4/fortnite-assist-app
+  description: "**Collaborated** with a team to develop a Fortnite Assistant application to serve its 250 million users." 
+  highlight: 3

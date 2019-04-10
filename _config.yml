@@ -1,0 +1,22 @@
+# Site settings
+title: Ahmad Zaidi
+email: azaidi4@wisc.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Ahmad Zaidi: Aspiring Software Developer | Always curious.
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://azaidi4.github.io" # the base hostname & protocol for your site
+# production_url: "https://azaidi4.github.io"
+github_username: azaidi4
+permalink: /blog/:year/:month/:title.html
+
+sass:
+  style: compressed
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mentions

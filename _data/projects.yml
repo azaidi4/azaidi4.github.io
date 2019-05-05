@@ -13,7 +13,7 @@
 - title: Yelp Camp
   image: yelpcamp.jpg
   code: https://github.com/azaidi4/YelpCamp
-  demo: https://pure-depths-27370.herokuapp.com/campgrounds
+  url: https://pure-depths-27370.herokuapp.com/campgrounds
   description: "YelpCamp is a **full-stack** Yelp clone, but for campsites! Built using NodeJS, ExpressJS, and MongoDB"
   highlight: 2
 
@@ -25,13 +25,13 @@
 - title: Restful Blog
   image: restfulblog.png
   code: https://github.com/azaidi4/BrutalWeather
-  demo: https://azaidi-restfulblog.herokuapp.com/blogs
+  url: https://azaidi-restfulblog.herokuapp.com/blogs
   description: "Restful Blog is my attempt at making a blog site using the REST protocol. It even supports HTML styling for additional customizability"
 
 - title: Groceristar
   image: groceristar.png
   code: https://github.com/GroceriStar
-  demo: http://groceristar.herokuapp.com/
+  url: http://groceristar.herokuapp.com/
   description: "**Contributor** to Groceristar. An Open-Source project aimed at helping individuals improving their shopping experience"
   highlight: 4
 
@@ -52,4 +52,11 @@
   code: https://github.com/KarinaNi/AssistFortnite
   demo: https://snack.expo.io/@azaidi4/fortnite-assist-app
   description: "**Collaborated** with a team to develop a Fortnite Assistant application to serve its 250 million users." 
+  highlight: 5
+
+- title: Vulture
+  image: vulture.svg
+  code: https://github.com/azaidi4/Vulture
+  url: https://get-vultured.herokuapp.com
+  description: "A simple Node.js app that picks up your shifts when someone drops them" 
   highlight: 3

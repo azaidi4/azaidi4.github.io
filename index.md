@@ -23,7 +23,7 @@ My passion lies in FrontEnd Development and BackEnd Development. I'm also a suck
 </div>
 </div>
 
-I've been working at [DataChat](https://news.wisc.edu/need-to-talk-to-your-data-uw-madison-spinoff-is-happy-to-translate/) as a Software Development Intern since May 2019.
+I've been interning at [DataChat](https://news.wisc.edu/need-to-talk-to-your-data-uw-madison-spinoff-is-happy-to-translate/) as a Software Development Intern since May 2019.
 
 ## <i class="fas fa-star"></i> Featured Projects
 <div class="featured-projects">

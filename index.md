@@ -5,17 +5,14 @@ class: home
 ---
 
 # Hi, I'm Ahmad Zaidi
-
 <div class="columns" markdown="1">
-
 <div class="intro" markdown="1">
-I'm a Junior majoring in Computer Science at the [University of Wisconsin - Madison](https://www.cs.wisc.edu/).
+I'm a Senior majoring in Computer Science at the [University of Wisconsin - Madison](https://www.cs.wisc.edu/).
 
 I build responsive apps with scalability and usability in mind.
 In my free time I delve in personal projects to challenge myself, gain experience, and learn new skills in the process.
 
-My passion lies in Front End Development and Back End Development. I'm also a sucker for good design.
-
+My passion lies in FrontEnd Development and BackEnd Development. I'm also a sucker for good design.
 </div>
 
 <div class="me" markdown="1">
@@ -24,11 +21,11 @@ My passion lies in Front End Development and Back End Development. I'm also a su
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </div>
-
 </div>
 
-## <i class="fas fa-star"></i> Featured Projects
+I've been interning at [DataChat](https://news.wisc.edu/need-to-talk-to-your-data-uw-madison-spinoff-is-happy-to-translate/) as a Software Development Intern since May 2019.
 
+## <i class="fas fa-star"></i> Featured Projects
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
   {% for project in sorted_projects %}

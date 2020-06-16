@@ -8,6 +8,8 @@ class: home
 <div class="columns" markdown="1">
 <div class="intro" markdown="1">
 
+I'm a Software Developer with Full-Stack experience with an emphasis in Frontend development.
+
 I build responsive apps with scalability and usability in mind.
 In my free time I delve in personal projects to challenge myself, gain experience, and learn new skills in the process.
 

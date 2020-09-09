@@ -2,12 +2,12 @@
   h1 {
     margin-top: 0;
   }
-  
+
   .cursor-span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
   }
-  
+
   @keyframes caret {
     50% {
       border-color: transparent;
@@ -42,6 +42,8 @@
       img {
         width: 220px;
         height: 220px;
+        object-fit: cover;
+        object-position: 0 10%;
         border-radius: 6px;
       }
     }

@@ -8,14 +8,14 @@
   demo: https://appetize.io/app/y3vw7yf8dn49r58ct93xdc0wnc?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
   image: uwrateem.png
   description: "UW Rate 'em! is a **React Native** application that allows users to rate courses at the University of Wisconsin-Madison"
-  highlight: 1
+  highlight: 2
 
 - title: Yelp Camp
   image: yelpcamp.jpg
   code: https://github.com/azaidi4/YelpCamp
   url: https://pure-depths-27370.herokuapp.com/campgrounds
   description: "YelpCamp is a **full-stack** Yelp clone, but for campsites! Built using NodeJS, ExpressJS, and MongoDB"
-  highlight: 2
+  highlight: 3
 
 - title: Brutal Weather
   image: brutalweather.png
@@ -33,13 +33,13 @@
   code: https://github.com/GroceriStar
   url: http://groceristar.herokuapp.com/
   description: "**Contributor** to Groceristar. An Open-Source project aimed at helping individuals improving their shopping experience"
-  highlight: 4
 
-- title: Football-Tweet Analyzer
+- title: Tweet Analyzer
   image: footballanalyzer.png
   code: https://github.com/azaidi4/football-tweet-analyzer
   paper: https://github.com/azaidi4/football-tweet-analyzer/raw/master/532-Final%20Project.pdf
-  description: "Created a tweet analyzer that can identify whether a tweet is related to the National Football League or the English Premier League using random forest classifier 🎄🌳"
+  description: "An analyzer that can identify between **NFL and EPL** tweets using random forests 🎄🌳"
+  highlight: 5
 
 - title: Patatap Clone
   image: patatap.jpg
@@ -51,12 +51,17 @@
   image: assistfortnite.jpg
   code: https://github.com/KarinaNi/AssistFortnite
   demo: https://snack.expo.io/@azaidi4/fortnite-assist-app
-  description: "**Collaborated** with a team to develop a Fortnite Assistant application to serve its 250 million users." 
-  highlight: 5
+  description: "A Fortnite Assistant mobile app developed to serve its 250+ million users"
 
 - title: Vulture
   image: vulture.svg
   code: https://github.com/azaidi4/Vulture
   url: https://get-vultured.herokuapp.com
-  description: "A simple Node.js app that picks up your shifts when someone drops them" 
-  highlight: 3
+  description: "A simple **Node.js bot** that picks up your shifts when someone drops them"
+  highlight: 4
+
+- title: FootyHead
+  image: footyhead.gif
+  code: https://github.com/azaidi4/footyhead
+  description: "2D soccer based game in **TypeScript** with robust online multiplayer support ⚽️"
+  highlight: 1

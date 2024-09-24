@@ -16,7 +16,7 @@ nav {
   }
 
   a {
-    color: #333;
+    color: $text-color;
     padding: 12px 0.3em 0 0.3em;
     margin: 0 0.3em;
     display: inline-block;
@@ -32,16 +32,26 @@ nav {
       padding-right: 0;
     }
     &.active {
-      border-bottom-color: #333;
+      border-bottom-color: $text-color;
       opacity: 1;
     }
     &:hover {
       text-decoration: none;
 
       opacity: 1;
-      border-bottom-color: #333;
+      border-bottom-color: $text-color;
 
       transition: opacity 0.25s ease-in-out, border 0.25s ease-in-out;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: $text-color-dark-mode;
+      &.active {
+        border-bottom-color: $text-color-dark-mode;
+      }
+      &:hover {
+        border-bottom-color: $text-color-dark-mode;
+      }
     }
   }
 
@@ -61,11 +71,15 @@ nav {
     font-size: 1.5em;
     border: none;
 
-    color: #333;
+    color: $text-color;
     opacity: 1;
 
     &:hover {
       opacity: 0.75;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: $text-color-dark-mode;
     }
   }
 }
@@ -119,12 +133,20 @@ nav {
       &:hover {
         border-color: transparent;
         background: lighten($brand-color, 55%);
+
+        @media (prefers-color-scheme: dark) {
+          background: darken($brand-color, 25%);
+        }
       }
 
       &.active {
         border-color: transparent;
         background: lighten($brand-color, 50%);
         border-radius: 3px;
+
+        @media (prefers-color-scheme: dark) {
+          background: darken($brand-color, 20%);
+        }
       }
     }
   }

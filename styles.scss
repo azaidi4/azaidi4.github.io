@@ -5,30 +5,43 @@
 
 // Our variables
 $base-font-family: "Fira Sans", sans-serif;
-$base-font-size:   100%;  // 16px by default
+$base-font-size: 100%; // 16px by default
 $base-font-weight: 400;
 $bold-font-weight: 500;
-$small-font-size:  0.9em;
+$small-font-size: 0.9em;
 $base-line-height: 1.64;
 
-$spacing-unit:     32px;
-$content-width:    800px;
+$spacing-unit: 32px;
+$content-width: 800px;
 
-$text-color:        #333;
-$background-color:  rgb(236, 236, 236);
-$brand-color:       #0070c0;
-$link-color:        #3477ad;
+$text-color: #333;
+$background-color: rgb(236, 236, 236);
+$brand-color: #0070c0;
+$link-color: #3477ad;
 $header-background: #ececec;
 $footer-background: #234;
-$footer-text:       darken(#fff, 10%);
+$footer-text: darken(#fff, 10%);
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-lightest: #f8f8f8;
-$grey-color-dark:  darken($grey-color, 15%);
-$grey-color-light:  lighten($grey-color, 15%);
+$grey-color-dark: darken($grey-color, 15%);
+$grey-color-light: lighten($grey-color, 15%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$text-color-dark-mode: #f1f1f1; // Light text for dark backgrounds
+$background-color-dark-mode: #202020; // Dark background
+$brand-color-dark-mode: #80c0ff; // Slightly lighter variation of brand color for better contrast
+$link-color-dark-mode: #4dabff; // Lighter link color for visibility on dark background
+$header-background-dark-mode: #1c1c1c; // Dark header background
+$footer-background-dark-mode: #121212; // Dark footer background
+$footer-text-dark-mode: lighten(#fff, 10%); // Brightened text for footer
+
+$grey-color-dark-mode: #b3b3b3; // Lighter grey for text and borders
+$grey-color-lightest-dark-mode: #2a2a2a; // Lightest grey for dark mode elements like background highlights
+$grey-color-dark-dark-mode: #666666; // Slightly darker grey for contrast
+$grey-color-light-dark-mode: #cccccc; // Lighter grey for minimal text or dividers
+
+$on-palm: 600px;
+$on-laptop: 800px;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -37,13 +50,5 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "base",
-  "layout",
-  "nav",
-  "footer",
-  "headings",
-  "home",
-  "projects",
-  "resume"
-;
+@import "base", "layout", "nav", "footer", "headings", "home", "projects",
+  "resume";

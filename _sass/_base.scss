@@ -38,6 +38,11 @@ body {
 
   // nicer text underlines
   text-decoration-skip: ink;
+
+  @media (prefers-color-scheme: dark) {
+    color: $text-color-dark-mode;
+    background-color: $background-color-dark-mode;
+  }
 }
 
 
@@ -133,6 +138,10 @@ a {
   &:hover {
       opacity: .8;
       text-decoration: underline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $link-color-dark-mode;
   }
 }
 

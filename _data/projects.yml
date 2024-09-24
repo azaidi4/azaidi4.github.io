@@ -60,5 +60,8 @@
   description: "A simple **Node.js bot** that picks up your shifts when someone drops them"
   highlight: 4
 
-  description: "A simple Node.js app that picks up your shifts when someone drops them" 
-  highlight: 3
+- title: FootyHead
+  image: footyhead.gif
+  code: https://github.com/azaidi4/footyhead
+  description: "2D soccer based game in **TypeScript** with robust online multiplayer support ⚽️"
+  highlight: 1

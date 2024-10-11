@@ -2,11 +2,11 @@
   function trim(str) {
     return str.replace(/^\s+|\s+$/g, "");
   }
-  var headers = document.querySelectorAll("h2, h3, h4, h5, h6");
-  for (var i = 0; i < headers.length; i++) {
-    var h = headers[i];
-    var name = h.getAttribute("id");
-    var title = h.innerHTML;
+  const headers = document.querySelectorAll("h2, h3, h4, h5, h6");
+  for (let i = 0; i < headers.length; i++) {
+    const h = headers[i];
+    const name = h.getAttribute("id");
+    const title = h.innerHTML;
     h.innerHTML =
       '<a href="#' +
       name +
@@ -18,21 +18,52 @@
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
     // array with texts to type in typewriter
-    var dataText = ["Hi, I'm Ahmad Zaidi", "Welcome to my Website"];
+    const dataText = ["Hi, I'm Ahmad Zaidi", "Welcome to my Website"];
+    const characterLimitMap = {
+      tiny: 11,
+      small: 13,
+      normal: 15,
+    };
 
     // type one text in the typwriter
     // keeps calling itself until the text is finished
-    function typeWriter(text, i, fnCallback) {
+    function typeWriter(text, start, end, fnCallback) {
+      const vw = Math.max(
+        document.documentElement.clientWidth || 0,
+        window.innerWidth || 0
+      );
+
+      let characterLimit = Infinity;
+      if (vw < 370) {
+        characterLimit = characterLimitMap["tiny"];
+      } else if (vw < 420) {
+        characterLimit = characterLimitMap["small"];
+      } else if (vw < 480) {
+        characterLimit = characterLimitMap["normal"];
+      }
+
+      let elipsis = "";
+      if (start == 1) {
+        elipsis = ".";
+      } else if (start > 1) {
+        elipsis = "..";
+      }
+
       // check if text isn't finished yet
-      if (i < text.length) {
+      if (end < text.length) {
         // add next character to h1
         document.querySelector("h1").innerHTML =
-          text.substring(0, i + 1) +
+          elipsis +
+          text.substring(start, end + 1) +
           '<span class="cursor-span" aria-hidden="true"></span>';
 
         // wait for a while and call this function again for next character
         setTimeout(function () {
-          typeWriter(text, i + 1, fnCallback);
+          if (end > characterLimit) {
+            typeWriter(text, start + 1, end + 1, fnCallback);
+          } else {
+            typeWriter(text, 0, end + 1, fnCallback);
+          }
         }, 100);
       }
       // text finished, call callback if there is a callback function
@@ -51,7 +82,7 @@
       // check if dataText[i] exists
       if (dataText[i]) {
         // text exists! start typewriter animation
-        typeWriter(dataText[i], 0, function () {
+        typeWriter(dataText[i], 0, 0, function () {
           // after callback (and whole text has been animated), start next text
           StartTextAnimation(i + 1);
         });

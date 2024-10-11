@@ -63,10 +63,8 @@ nav {
 
   .site-title {
     font-weight: $bold-font-weight;
-    margin-top: 8px;
+    margin: 8px $spacing-unit 0 0;
     padding: 0;
-    margin-left: 0;
-    margin-right: $spacing-unit;
     flex: 0 0 auto;
     font-size: 1.5em;
     border: none;
@@ -104,10 +102,6 @@ nav {
 }
 
 @include media-query($on-palm) {
-  .site-title {
-    margin-top: 0.5em;
-  }
-
   nav {
     justify-content: space-around;
 
@@ -116,10 +110,10 @@ nav {
     }
 
     .external {
-      flex: 0 1 100%;
       justify-content: space-around;
     }
     .site-title {
+      margin: 0.5em 0 0;
       text-align: center;
     }
     // hide icons from internal links
@@ -128,7 +122,16 @@ nav {
     }
 
     a {
+
       border-radius: 3px;
+
+      &:nth-child(2) {
+        margin: 0 0.3em;
+      }
+
+      &:last-child {
+        padding: 0 9px;
+      }
 
       &:hover {
         border-color: transparent;
@@ -145,7 +148,7 @@ nav {
         border-radius: 3px;
 
         @media (prefers-color-scheme: dark) {
-          background: darken($brand-color, 20%);
+          background: $brand-color;
         }
       }
     }

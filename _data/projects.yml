@@ -1,22 +1,59 @@
-- title: Madison Bus Tracker
-  image: madisonbustracker.png
-  code: https://github.com/azaidi4/madisonBusTracker/commits/master
-  description: "**Currently** developing a program using GTFS-realtime datafeed to track the current location of incoming buses of Madison Metro Transit"
+- title: ingrEZ
+  code: https://github.com/azaidi4/ingrEZ
+  image: ingrEZ.png
+  description: "Recipe suggester and meal planner based on what you have in your fridge powered by GenAI using Google Gemini"
+  highlight: 1
+
+- title: FootyHead
+  image: footyhead.gif
+  code: https://github.com/azaidi4/footyhead
+  description: "2D soccer based game in **TypeScript** with robust online multiplayer support ⚽️"
+  highlight: 2
+
+- title: Vulture
+  image: vulture.svg
+  code: https://github.com/azaidi4/Vulture
+  url: https://get-vultured.herokuapp.com
+  description: "A simple **Node.js bot** that picks up your shifts when someone drops them"
+  highlight: 3
 
 - title: UW Rate 'Em
   code: https://github.com/azaidi4/UWRateEm
   demo: https://appetize.io/app/y3vw7yf8dn49r58ct93xdc0wnc?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
   image: uwrateem.png
   description: "UW Rate 'em! is a **React Native** application that allows users to rate courses at the University of Wisconsin-Madison"
-  highlight: 2
+  highlight: 4
+
+- title: Tweet Analyzer
+  image: footballanalyzer.png
+  code: https://github.com/azaidi4/football-tweet-analyzer
+  paper: https://github.com/azaidi4/football-tweet-analyzer/raw/master/532-Final%20Project.pdf
+  description: "An analyzer that can identify between **NFL and EPL** tweets using random forests 🎄🌳"
+  highlight: 5
 
 - title: Yelp Camp
   image: yelpcamp.jpg
   code: https://github.com/azaidi4/YelpCamp
   url: https://pure-depths-27370.herokuapp.com/campgrounds
   description: "YelpCamp is a **full-stack** Yelp clone, but for campsites! Built using NodeJS, ExpressJS, and MongoDB"
-  highlight: 3
 
+- title: Assistant for Fortnite
+  image: assistfortnite.jpg
+  code: https://github.com/KarinaNi/AssistFortnite
+  demo: https://snack.expo.io/@azaidi4/fortnite-assist-app
+  description: "A mobile cross-platform Fornite assistant for its 250+ million users"
+
+- title: Groceristar
+  image: groceristar.png
+  code: https://github.com/GroceriStar
+  url: http://groceristar.herokuapp.com/
+  description: "**Contributor** to Groceristar. An Open-Source project aimed at helping individuals improving their shopping experience"
+
+- title: Madison Bus Tracker
+  image: madisonbustracker.png
+  code: https://github.com/azaidi4/madisonBusTracker/commits/master
+
+  description: "A program using GTFS-realtime datafeed to track the current location of incoming buses of Madison Metro Transit"
 - title: Brutal Weather
   image: brutalweather.png
   code: https://github.com/azaidi4/BrutalWeather
@@ -28,40 +65,8 @@
   url: https://azaidi-restfulblog.herokuapp.com/blogs
   description: "Restful Blog is my attempt at making a blog site using the REST protocol. It even supports HTML styling for additional customizability"
 
-- title: Groceristar
-  image: groceristar.png
-  code: https://github.com/GroceriStar
-  url: http://groceristar.herokuapp.com/
-  description: "**Contributor** to Groceristar. An Open-Source project aimed at helping individuals improving their shopping experience"
-
-- title: Tweet Analyzer
-  image: footballanalyzer.png
-  code: https://github.com/azaidi4/football-tweet-analyzer
-  paper: https://github.com/azaidi4/football-tweet-analyzer/raw/master/532-Final%20Project.pdf
-  description: "An analyzer that can identify between **NFL and EPL** tweets using random forests 🎄🌳"
-  highlight: 5
-
 - title: Patatap Clone
   image: patatap.jpg
   code: https://github.com/azaidi4/PatatapProject
   demo: https://azaidi4.github.io/PatatapProject/
-  description: "Patatap Project is a clone of the popular portable animation sound kit Patatap by Jono Brandel."
-
-- title: Assistant for Fortnite
-  image: assistfortnite.jpg
-  code: https://github.com/KarinaNi/AssistFortnite
-  demo: https://snack.expo.io/@azaidi4/fortnite-assist-app
-  description: "A Fortnite Assistant mobile app developed to serve its 250+ million users"
-
-- title: Vulture
-  image: vulture.svg
-  code: https://github.com/azaidi4/Vulture
-  url: https://get-vultured.herokuapp.com
-  description: "A simple **Node.js bot** that picks up your shifts when someone drops them"
-  highlight: 4
-
-- title: FootyHead
-  image: footyhead.gif
-  code: https://github.com/azaidi4/footyhead
-  description: "2D soccer based game in **TypeScript** with robust online multiplayer support ⚽️"
-  highlight: 1
+  description: "Patatap Project is a clone of the popular portable animation sound kit Patatap by Jono Brandel"

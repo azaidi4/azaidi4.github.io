@@ -13,13 +13,13 @@
 - title: Vulture
   image: vulture.svg
   code: https://github.com/azaidi4/Vulture
-  url: https://get-vultured.herokuapp.com
+  # url: https://get-vultured.herokuapp.com
   description: "A simple **Node.js bot** that picks up your shifts when someone drops them"
   highlight: 3
 
 - title: UW Rate 'Em
   code: https://github.com/azaidi4/UWRateEm
-  demo: https://appetize.io/app/y3vw7yf8dn49r58ct93xdc0wnc?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
+  demo: https://appetize.io/app/b_cwhulbfawvtg3qnzczrxcfts34?device=pixel4&osVersion=11.0
   image: uwrateem.png
   description: "UW Rate 'em! is a **React Native** application that allows users to rate courses at the University of Wisconsin-Madison"
   highlight: 4

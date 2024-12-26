@@ -8,6 +8,14 @@
   font-family: "Charter ITC TT", sans-serif;
   font-kerning: normal;
 
+  @include media-query($on-palm) {
+    padding: 30px 35px;
+  }
+
+  @include media-query($on-mobile) {
+    padding: 25px 30px;
+  }
+
   p {
     font-size: 1.1em;
     line-height: 1.25em;
@@ -31,6 +39,11 @@
       color: #1a1a1a;
     }
     text-align: center;
+    margin-bottom: 0.5em;
+
+    @include media-query($on-palm) {
+      margin-bottom: 1em;
+    }
   }
 
   .section {
@@ -41,6 +54,10 @@
       color: #1a1a1a !important;
       margin: 0;
       letter-spacing: 0.05rem;
+
+      @include media-query($on-mobile) {
+        text-align: center;
+      }
     }
     hr {
       background-color: #1a1a1a;

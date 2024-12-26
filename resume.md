@@ -42,7 +42,7 @@ class: resume
   <div class="entry">
     <p>
       <strong>Software Test Engineer,</strong> Fusion Systems and Services – Chicago, IL
-      <span class="job-date"> Mar 2023 – July 2023 </span>
+      <span class="date"> Mar 2023 – July 2023 </span>
       <br />
     </p>
     <ul>
@@ -70,7 +70,7 @@ class: resume
   <div class="entry">
     <p>
       <strong>Software Engineer I &amp; II,</strong> Amount – Chicago, IL
-      <span class="job-date">Mar 2021 – Mar 2023</span>
+      <span class="date">Mar 2021 – Mar 2023</span>
       <br />
     </p>
     <ul>
@@ -135,7 +135,7 @@ class: resume
   <div class="entry">
     <p>
       <strong>Software Engineer Intern,</strong> DataChat – Madison, WI
-      <span class="job-date">May 2019 – Mar 2020</span>
+      <span class="date">May 2019 – Mar 2020</span>
       <br />
     </p>
     <ul>
@@ -286,7 +286,7 @@ class: resume
   <div class="entry">
   <p>
     <strong>University of Wisconsin–Madison</strong> – BS in Computer Science
-    Mar 2020
+    <span class="date">May 2020</span>
   </p>
   </div>
 </div>

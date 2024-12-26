@@ -19,7 +19,7 @@ class: resume
   <hr />
   <p>
     Software Engineer with 3+ years of diverse full-stack experience in fintech
-    startups, specializing in frontend <br />development, feature design, and cross-team collaboration.
+    startups, specializing in frontend development, feature design, and cross-team collaboration.
   </p>
 </div>
 

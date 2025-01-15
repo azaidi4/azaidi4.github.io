@@ -30,7 +30,7 @@ class: resume
     <strong>Frontend:</strong> React, React-Native, TypeScript, Blazor, Sass,
     CSS, Webpack, D3.js
     <br />
-    <strong>Backend:</strong> Ruby, Go, Python, Node.js, C#, Java, PostgreSQL,
+    <strong>Backend:</strong> Ruby, Go, Python, Node.js, PHP, C#, Java, PostgreSQL,
     SQL, Redis, Kafka, AWS, Firebase
   </p>
 </div>
@@ -216,6 +216,21 @@ class: resume
 
   <div class="entry">
     <p>
+      <strong>Driver Log Book</strong> | Web –
+      <em>PHP, JS, MySQL</em>
+      <a href="https://azaidi-driver-log-book.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a><br />
+    </p>
+    <ul>
+      <li>
+        <p>
+          Server-Side-Rendered web app made with vanilla PHP for logging driving trips.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <p>
       <strong>Vulture</strong> | Bot –
       <em>HTML, MUI-CSS, Express, Puppeteer, Outlook API</em>
       <a href="https://github.com/azaidi4/vulture" target="_blank" rel="noopener noreferrer">GitHub</a><br />
@@ -261,24 +276,6 @@ class: resume
       </li>
     </ul>
   </div>
-
-  <div class="entry">
-    <p>
-      <strong>Football Tweet Analyzer</strong> | Machine Learning –
-      <em>R, Random Forests</em>
-      <a href="https://github.com/azaidi4/football-tweet-analyzer" target="_blank" rel="noopener noreferrer">GitHub</a
-      ><br />
-    </p>
-    <ul>
-      <li>
-        <p>
-          Social media analytics tool to discriminate between "American" and
-          "European" football tweets.
-        </p>
-      </li>
-    </ul>
-  </div>
-</div>
 
 <div class="section">
   <h4 id="education">Education</h4>

@@ -24,11 +24,10 @@
   description: "UW Rate 'em! is a **React Native** application that allows users to rate courses at the University of Wisconsin-Madison"
   highlight: 4
 
-- title: Tweet Analyzer
-  image: footballanalyzer.png
-  code: https://github.com/azaidi4/football-tweet-analyzer
-  paper: https://github.com/azaidi4/football-tweet-analyzer/raw/master/532-Final%20Project.pdf
-  description: "An analyzer that can identify between **NFL and EPL** tweets using random forests 🎄🌳"
+- title: Driver Log Book
+  image: driverlogbook.png
+  demo: https://driver-log-book.vercel.app/
+  description: "A SSR web app to help keep track of driving logs. Made with vanilla PHP"
   highlight: 5
 
 - title: Yelp Camp

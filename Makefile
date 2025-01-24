@@ -1,7 +1,10 @@
 .DEFAULT_GOAL := create-pr
 BRANCH := feat-$(shell date +%b%d%y | tr '[:upper:]' '[:lower:]')
 
-create-pr:
+branch:
+	git checkout -b $(BRANCH)
+
+pr:
 	git checkout -b $(BRANCH)
 	echo "Enter your commit message:" && \
 	read COMMIT_MESSAGE && \

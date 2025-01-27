@@ -17,7 +17,7 @@ My passion lies in Software Development. I'm also a sucker for good design.
 </div>
 
 <div class="me" markdown="1">
-<img src="{{ '/images/ahmad.jpeg' | absolute_url }}" alt="Image of me">
+<img src="{{ '/assets/images/ahmad.jpeg' | relative_url }}" alt="Image of me">
 
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>

@@ -1,4 +1,4 @@
-{% capture imagePath %}{% if include.name %}{{ '/images/' | relative_url }}{{include.name}}{% else %}{{ include.url }}{% endif %}{% endcapture %}
+{% capture imagePath %}{% if include.name %}{{ '/assets/images/' | relative_url }}{{include.name}}{% else %}{{ include.url }}{% endif %}{% endcapture %}
 {% if include.caption %}
 <figure>
     <a href="{{ imagePath }}"><img src="{{ imagePath }}" alt="{{ include.caption }}" {% if include.width %} width="{{ include.width }}" {% endif %}/></a>

@@ -1,87 +1,98 @@
 .resume {
-  color: #1a1a1a;
-  background-color: #fdfdfd;
-
-  margin: 0 auto;
-  padding: 50px 55px;
-  word-break: auto-phrase;
-  font-family: "Charter ITC TT", sans-serif;
-  font-kerning: normal;
-
-  @include media-query($on-palm) {
-    padding: 30px 35px;
-  }
-
-  @include media-query($on-mobile) {
-    padding: 25px 30px;
-  }
-
-  p {
-    font-size: 1.1em;
-    line-height: 1.25em;
-    margin: 0;
-    strong {
-      font-weight: bold;
-    }
-  }
-
-  a {
-    color: #1a1a1a;
-  }
-
-  a:visited {
-    color: #1a1a1a;
-  }
-
-  .header {
-    .title {
-      margin: 0;
-      color: #1a1a1a;
-    }
-    text-align: center;
+  .resume-link {
+    text-align: right;
     margin-bottom: 0.5em;
 
     @include media-query($on-palm) {
-      margin-bottom: 1em;
+      text-align: center;
     }
   }
 
-  .section {
-    margin-bottom: 0.6em;
+  .resume-container {
+    color: #1a1a1a;
+    background-color: #fdfdfd;
 
-    h4 {
-      font-weight: bold;
-      color: #1a1a1a !important;
+    margin: 0 auto;
+    padding: 50px 55px;
+    word-break: auto-phrase;
+    font-family: "Charter ITC TT", sans-serif;
+    font-kerning: normal;
+
+    @include media-query($on-palm) {
+      padding: 30px 35px;
+    }
+
+    @include media-query($on-mobile) {
+      padding: 25px 30px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.25em;
       margin: 0;
-      letter-spacing: 0.05rem;
-
-      @include media-query($on-mobile) {
-        text-align: center;
+      strong {
+        font-weight: bold;
       }
     }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
+
+    a {
+      color: #1a1a1a;
+    }
+
+    a:visited {
+      color: #1a1a1a;
+    }
+
+    .header {
+      .title {
+        margin: 0;
+        color: #1a1a1a;
+      }
+      text-align: center;
       margin-bottom: 0.5em;
+
+      @include media-query($on-palm) {
+        margin-bottom: 1em;
+      }
     }
 
-    .entry {
+    .section {
       margin-bottom: 0.6em;
-      a {
-        float: right;
-      }
-      ul {
-        margin-bottom: 0;
-        margin-left: 1em;
 
-        > li {
-          margin: 0;
-          margin-bottom: 0.25em;
+      h4 {
+        font-weight: bold;
+        color: #1a1a1a !important;
+        margin: 0;
+        letter-spacing: 0.05rem;
+
+        @include media-query($on-mobile) {
+          text-align: center;
         }
       }
-      .date {
-        float: right;
+      hr {
+        background-color: #1a1a1a;
+        border: none;
+        height: 1px;
+        margin-bottom: 0.5em;
+      }
+
+      .entry {
+        margin-bottom: 0.6em;
+        a {
+          float: right;
+        }
+        ul {
+          margin-bottom: 0;
+          margin-left: 1em;
+
+          > li {
+            margin: 0;
+            margin-bottom: 0.25em;
+          }
+        }
+        .date {
+          float: right;
+        }
       }
     }
   }

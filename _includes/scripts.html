@@ -25,7 +25,7 @@
       normal: 15,
     };
 
-    // type one text in the typwriter
+    // type one text in the typewriter
     // keeps calling itself until the text is finished
     function typeWriter(text, start, end, fnCallback) {
       const vw = Math.max(
@@ -42,18 +42,18 @@
         characterLimit = characterLimitMap["normal"];
       }
 
-      let elipsis = "";
+      let ellipsis = "";
       if (start == 1) {
-        elipsis = ".";
+        ellipsis = ".";
       } else if (start > 1) {
-        elipsis = "..";
+        ellipsis = "..";
       }
 
       // check if text isn't finished yet
       if (end < text.length) {
         // add next character to h1
         document.querySelector("h1").innerHTML =
-          elipsis +
+          ellipsis +
           text.substring(start, end + 1) +
           '<span class="cursor-span" aria-hidden="true"></span>';
 

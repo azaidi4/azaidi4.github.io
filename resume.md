@@ -281,6 +281,7 @@ class: resume
         </li>
       </ul>
     </div>
+  </div>
 
   <div class="section">
     <h4 id="education">Education</h4>

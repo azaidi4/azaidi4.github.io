@@ -16,7 +16,7 @@ class: resume
     <p>
       <a href="mailto:ahmad_zafar@outlook.com" target="_blank" rel="noopener noreferrer">ahmad_zafar@outlook.com</a> |
       <a href="https://www.4z41d1.xyz" target="_blank" rel="noopener noreferrer">4z41d1.xyz.com</a> |
-      <a href="https://github.com/azaidi4" target="_blank" rel="noopener noreferrer">github.com/azaidi4</a> | Dubai, UAE
+      <a href="https://github.com/azaidi4" target="_blank" rel="noopener noreferrer">github.com/azaidi4</a> | Lucknow
     </p>
   </div>
 
@@ -60,8 +60,7 @@ class: resume
         </li>
         <li>
           <p>
-            Maintained in-house Integrated Test Automation System built with
-            Python, Java and Kafka.
+            Integrated Kafka messaging queue in Python to streamline test data transfer to Java scheduler.
           </p>
         </li>
         <li>
@@ -153,8 +152,7 @@ class: resume
         </li>
         <li>
           <p>
-            Created REST endpoints in Go <strong>backend</strong> for seamless
-            client-server communication.
+            Transformed raw data inputs from analytics engine using NumPy and pandas to create visualizations.
           </p>
         </li>
         <li>

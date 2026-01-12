@@ -16,7 +16,7 @@ class: resume
     <p>
       <a href="mailto:ahmad_zafar@outlook.com" target="_blank" rel="noopener noreferrer">ahmad_zafar@outlook.com</a> |
       <a href="https://www.4z41d1.xyz" target="_blank" rel="noopener noreferrer">4z41d1.xyz.com</a> |
-      <a href="https://github.com/azaidi4" target="_blank" rel="noopener noreferrer">github.com/azaidi4</a> | Lucknow
+      <a href="https://github.com/azaidi4" target="_blank" rel="noopener noreferrer">github.com/azaidi4</a> | Bengaluru, KA
     </p>
   </div>
 
@@ -33,17 +33,60 @@ class: resume
     <h4 id="skills">Skills</h4>
     <hr />
     <p>
-      <strong>Frontend:</strong> React, React-Native, TypeScript, Blazor, Sass,
-      CSS, Webpack, D3.js
+      <strong>Frontend:</strong> React, D3.js, React-Native, TypeScript, Blazor, Sass, CSS, Webpack,
       <br />
-      <strong>Backend:</strong> Ruby, Go, Python, Node.js, PHP, C#, Java, PostgreSQL,
-      SQL, Redis, Kafka, AWS, Firebase
+      <strong>Backend:</strong> Ruby, Go, Python, Node.js, PHP, C#, Java, PostgreSQL, SQL, Redis, Kafka, AWS, Firebase
     </p>
   </div>
 
   <div class="section">
     <h4 id="experience">Experience</h4>
     <hr />
+
+    <div class="entry">
+     <p>
+        <strong>Software Developer (Contract)</strong> Let's Read Pvt. Ltd – Remote, India
+        <span class="date"> Nov 2025 – Present</span>
+        <br />
+      </p>
+      <ul>
+        <li>
+          <p>
+            Leading digitization of a phonics-based learning platform into a cross-platform mobile app using Expo.
+          </p>
+        </li>
+        <li>
+          <p>
+            Implemented role-based access control (RBAC) to enable secure progress tracking for educators and parents.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+     <div class="entry">
+     <p>
+        <strong>Software Developer (Contract),</strong> AI EdTech Startup – Remote, India
+        <span class="date"> Apr 2025 – Present</span>
+        <br />
+      </p>
+      <ul>
+        <li>
+          <p>
+            Frontend lead building a scalable, high impact frontend for an EdTech platform in Angular 19.
+          </p>
+        </li>
+        <li>
+          <p>
+            Built interactive D3.js visualizations for intuitive navigation of textbook chapter and topic hierarchies.
+          </p>
+        </li>
+        <li>
+          <p>
+            Refactored and standardized UI components, migrating from Angular Material to PrimeNG.
+          </p>
+        </li>
+      </ul>
+    </div>
 
     <div class="entry">
       <p>
@@ -124,12 +167,6 @@ class: resume
         </li>
         <li>
           <p>
-            Upgraded system capability by integrating third-party vendor SDKs for
-            identity verification, credit reporting, and performance monitoring.
-          </p>
-        </li>
-        <li>
-          <p>
             Supported data projects, resolved bugs in ETL pipelines and remediated
             10,000+ users.
           </p>
@@ -152,11 +189,6 @@ class: resume
         </li>
         <li>
           <p>
-            Transformed raw data inputs from analytics engine using NumPy and pandas to create visualizations.
-          </p>
-        </li>
-        <li>
-          <p>
             Integrated structured logging with Zap for better log ingestion and
             quicker bug detection.
           </p>
@@ -169,8 +201,7 @@ class: resume
         </li>
         <li>
           <p>
-            Stopped unauthorized use by introducing a secure licensing mechanism
-            with digital signatures.
+            Implemented product licensing using digital signatures to enforce terms of use for on-premise deployments.
           </p>
         </li>
         <li>
@@ -261,22 +292,6 @@ class: resume
           <p>
             Cross-platform app for UW Madison students to rate courses with
             real-time search indexing.
-          </p>
-        </li>
-      </ul>
-    </div>
-
-    <div class="entry">
-      <p>
-        <strong>Go License Server</strong> | Server –
-        <em>Go, Gorilla, Postgres, xo</em>
-        <a href="https://github.com/azaidi4/go-license-server" target="_blank" rel="noopener noreferrer">GitHub</a><br />
-      </p>
-      <ul>
-        <li>
-          <p>
-            Platform-agnostic digital license server template for software
-            applications.
           </p>
         </li>
       </ul>
